@@ -1,0 +1,26 @@
+{
+  "name": "great_british_code_off",
+  "version": "0.0.0",
+  "authors": [
+    "Alan Donohoe <alandonohoe@hotmail.com>"
+  ],
+  "description": "Learn Coding Whilst Eating Cakes",
+  "main": "public/great_british_code_off.html",
+  "keywords": [
+    "coding",
+    "javascript",
+    "baking"
+  ],
+  "license": "MIT",
+  "homepage": "alandonohoe.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton-sass": "^2.5.2"
+  }
+}
