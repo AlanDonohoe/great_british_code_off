@@ -1,12 +1,26 @@
 {
-  "name": "yeoman-gulp-app",
-  "private": true,
+  "name": "great_british_code_off",
+  "version": "0.0.0",
+  "authors": [
+    "Alan Donohoe <alandonohoe@hotmail.com>"
+  ],
+  "description": "Learn Coding Whilst Eating Cakes",
+  "main": "public/great_british_code_off.html",
+  "keywords": [
+    "coding",
+    "javascript",
+    "baking"
+  ],
+  "license": "MIT",
+  "homepage": "alandonohoe.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "modernizr": "~2.8.1",
     "skeleton-sass": "^2.5.2"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
   }
 }
