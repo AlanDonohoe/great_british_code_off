@@ -1,39 +1,12 @@
 {
-<<<<<<< HEAD
-  "name": "yeoman-web-app",
+  "name": "yeoman-gulp-app",
   "private": true,
   "dependencies": {
-    "jquery": "~2.1.1",
     "modernizr": "~2.8.1",
     "skeleton-sass": "^2.5.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
-=======
-  "name": "great_british_code_off",
-  "version": "0.0.0",
-  "authors": [
-    "Alan Donohoe <alandonohoe@hotmail.com>"
-  ],
-  "description": "Learn Coding Whilst Eating Cakes",
-  "main": "public/great_british_code_off.html",
-  "keywords": [
-    "coding",
-    "javascript",
-    "baking"
-  ],
-  "license": "MIT",
-  "homepage": "alandonohoe.co.uk",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "skeleton-sass": "^2.5.2"
->>>>>>> 00a7f317a7f0fd52ec078c0740b3f97c80a9eacb
   }
 }
