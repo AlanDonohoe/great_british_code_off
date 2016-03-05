@@ -111,32 +111,47 @@ img.bg {
   }
 }
 
-.center {
-  text-align: center;
+// Framework extensions / overrides
+.button-large {
+  @extend .button;
+  padding: 10px 60px 30px 60px;
+  height: 60px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
 }
 
-// standard spacing stuff:
-
-.mtxxl {
-  margin-top: 250px;
+// Table styles:
+th {
+  background: #B15253;
 }
-
-.mbxxl {
-  margin-bottom: 150px
+tr:nth-child(even) {
+  background: #F8DFDA;
 }
-
+tr:nth-child(odd) {
+  background: white;
+}
+td:first-child {
+  padding-left: 20px
+}
 
 /*==========================================================================================================
 
            #layout adjuster styles - margins, padding, borders etc 
 
 =========================================================================================================*/ 
-/*
+
+.bottom-break {
+  padding-bottom: 50px;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
 }
-*/
+
+.center-text {
+  text-align: center;
+}
 
 .center-block {
   display: block;
@@ -296,6 +311,11 @@ img.bg {
 .mtxl {
   margin-top: 50px !important;
 }
+
+.mtxxl {
+  margin-top: 250px;
+}
+
 .mrn,
 .mhn,
 .man {
@@ -345,6 +365,9 @@ img.bg {
 .mvl,
 .mal {
   margin-bottom: 20px !important;
+}
+.mbxxl {
+  margin-bottom: 150px
 }
 .mln,
 .mhn,
